@@ -1,0 +1,19 @@
+# 下載的完整資料集
+/mvtec-ad/
+/mvtec-ad-2/
+
+# 本機依賴與產物
+/work/
+/cache/
+/outputs/
+**/.venv/
+**/node_modules/
+**/__pycache__/
+/leather-ui/frontend/dist/
+*.py[cod]
+*.log
+
+# 本機環境設定
+.env
+.env.*
+!.env.example

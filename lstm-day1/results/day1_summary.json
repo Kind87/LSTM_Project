@@ -1,0 +1,40 @@
+{
+  "device": "cpu",
+  "python": "3.12.14",
+  "torch": "2.11.0+cpu",
+  "torchvision": "0.26.0+cpu",
+  "weights": "IMAGENET1K_V1",
+  "seed": 42,
+  "data_counts": {
+    "train": 196,
+    "validation": 49,
+    "test": 124
+  },
+  "brightness_factors": [
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "sequence_feature_shape": [
+    4,
+    28,
+    28,
+    384
+  ],
+  "smoke_train_images": [
+    "train/good/000.png",
+    "train/good/002.png",
+    "train/good/003.png",
+    "train/good/004.png",
+    "train/good/005.png",
+    "train/good/009.png",
+    "train/good/010.png",
+    "train/good/011.png"
+  ],
+  "smoke_test_image_count": 8,
+  "smoke_memory_bank_shape": [
+    128,
+    384
+  ]
+}

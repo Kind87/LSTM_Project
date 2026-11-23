@@ -1,0 +1,26 @@
+[project]
+name = "leather-anomaly-experiment"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "torch==2.11.0",
+    "torchvision==0.26.0",
+    "Pillow",
+    "scikit-learn",
+    "matplotlib",
+]
+
+[dependency-groups]
+demo = ["fastapi", "uvicorn", "python-multipart"]
+
+[tool.uv]
+package = false
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+torchvision = { index = "pytorch-cpu" }

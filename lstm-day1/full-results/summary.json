@@ -1,0 +1,25 @@
+{
+  "best_epoch": 10,
+  "thresholds": {
+    "PatchCore": 3.1380571365356444,
+    "CNN+LSTM": 0.014653180725872504
+  },
+  "memory_bank_shape": [
+    1024,
+    384
+  ],
+  "data_counts": {
+    "train": 196,
+    "validation": 49,
+    "test": 124
+  },
+  "test_conditions": {
+    "original": 1.0,
+    "dark": 0.75,
+    "bright": 1.25
+  },
+  "device": "cpu",
+  "seed": 42,
+  "seconds": 61.82,
+  "error_examples": 4
+}
